@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: blanchedalmond;
+  background-color: blanchedalmond !important;
   text-transform: capitalize;
   /* Height of the fixed navbar */
 }
@@ -34,7 +34,7 @@ body {
   }
   
   .hero img {
-    height: 250px;
+    height: 200px;
     object-fit: cover;
   }
   .headerr{
@@ -68,28 +68,34 @@ body {
 }
 
 .card img {
-  height: 130px;
+  height: 88px;
   object-fit: cover;
   transition: 0.3s;
+  background-color: blanchedalmond !important;
   /* تأثير الحركة */
 }
 
 .card .card-body {
   position: absolute;
-  bottom: 25%;
-  left: 20%;
-  width: 55%;
-  height: 60px;
-  background: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  bottom: 29%;
+  left: 23%;
+  width: 50%;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
   transition: 0.3s;
   /* تأثير الحركة */
   border-radius: 30px;
 }
-
+.card1{
+  bottom: 15% !important;
+}
+.card3{
+  bottom: 40% !important;
+}
 .card-title {
   font-size: 22px;
   text-align: center;
+  margin-top: -15px;
   background:-webkit-linear-gradient(left,#c32f27,#d8572a,#db7c26,#f7b538,#780116);
     -webkit-background-clip: text;
     background-clip: text; 
