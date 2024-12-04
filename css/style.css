@@ -44,6 +44,10 @@ body {
     color: transparent; 
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+    margin-top: -15px;
+    font-size: 42px ;
+
+
   }
   .hero .overlay {
     background: rgba(0,0,0, 0.7);
@@ -51,6 +55,8 @@ body {
   }
   .icn-head{
     transition: 0.3s;
+    margin-top: -15px;
+    font-size: 22px ;
   }
   .icn-head:hover{
     scale: 1.9;
@@ -68,7 +74,7 @@ body {
 }
 
 .card img {
-  height: 88px;
+  height: 130px;
   object-fit: cover;
   transition: 0.3s;
   background-color: blanchedalmond !important;
@@ -80,7 +86,7 @@ body {
   bottom: 29%;
   left: 23%;
   width: 50%;
-  height: 20px;
+  height: 40px;
   background: rgba(0, 0, 0, 0.5);
   transition: 0.3s;
   /* تأثير الحركة */
@@ -110,7 +116,15 @@ body {
   .card {
     width: 50%;
   }
-
+  .card img {
+    height: 160px;
+  }
+  .card1{
+    bottom: 35% !important;
+  }
+  .card3{
+    bottom: 70% !important;
+  }
   .card .card-body {
     bottom: 50%;
     /* منتصف الصورة */
@@ -124,11 +138,12 @@ body {
     background: rgba(0, 0, 0, 0.5);
     /* خلفية أغمق للتباين */
     border-radius: 30px;
+    height: 60px;
     /* إزالة الزوايا الدائرية */
   }
 
   .card-title {
-    font-size: 24px;
+    font-size: 40px;
     /* تكبير النص قليلاً للشاشات الكبيرة */
     padding-bottom: 20px;
   }
